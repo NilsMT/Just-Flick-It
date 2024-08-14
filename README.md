@@ -9,6 +9,7 @@ Cependant il y a certaines règles à respectées pour correctement appuyer sur 
 
 ## Liens
 <p>
-Ce (lien)[https://docs.google.com/document/d/1ZjwOaMmddVTplFQ9zmvSXf-faN5H1pEyfLEwB4VWLZ0/edit?usp=sharing] vous dirigera vers le Google Docs qui montre l'envers du décor du jeu, la documentation et le développement
+Ce <a href="(https://docs.google.com/document/d/1ZjwOaMmddVTplFQ9zmvSXf-faN5H1pEyfLEwB4VWLZ0/edit?usp=sharing">lien</a> 
+vous dirigera vers le Google Docs qui montre l'envers du décor du jeu, la documentation et le développement
 </p>
 
