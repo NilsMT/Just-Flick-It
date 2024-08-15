@@ -1,4 +1,3 @@
-# Just-Flick-It
 <img src="./img/Thumbnail2.png"/>
 
 ## À propos
