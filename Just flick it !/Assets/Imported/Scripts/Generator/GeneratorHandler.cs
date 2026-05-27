@@ -408,7 +408,9 @@ public class GeneratorHandler : MonoBehaviour
                 Debug.LogWarning("Unknown Game type");
                 break;
         }
+
         gamecycler.Camera.GetComponent<CameraController>().DisableMovements();
+
         ChooseGame();
     }
 
@@ -530,9 +532,8 @@ public class GeneratorHandler : MonoBehaviour
         if (RegisteredGame==Game.Classic)
         {
             CreateBoard(GenerateClassicGame(), transform, false);
-        } else if (RegisteredGame==Game.Custom) //////////////////////////////////////////////////////To write it so it read a file
+        } else if (RegisteredGame==Game.Custom) //TODO: To write it so it read a file
         {
-           
             Seed = 0;
             CreateBoard(StarterGameMatrix, transform, false);
         } else
@@ -614,25 +615,25 @@ public class GeneratorHandler : MonoBehaviour
             {
                 eventLeft = 1;
                 EventLikeliness = 5f;
-                StarterGameMatrix = new string[6, 15];
+                StarterGameMatrix = new string[6, 10];
             }
             else if (RegisteredDifficulty == Difficulty.Normal)
             {
                 eventLeft = 2;
                 EventLikeliness = 10f;
-                StarterGameMatrix = new string[10, 16];
+                StarterGameMatrix = new string[8, 12];
             }
             else if (RegisteredDifficulty == Difficulty.Hard)
             {
                 eventLeft = 3;
                 EventLikeliness = 10f;
-                StarterGameMatrix = new string[6, 17];
+                StarterGameMatrix = new string[10, 14];
             }
             else if (RegisteredDifficulty == Difficulty.Hardcore)
             {
                 eventLeft = 4;
                 EventLikeliness = 15f;
-                StarterGameMatrix = new string[10, 18];
+                StarterGameMatrix = new string[12, 16];
             }
             //Special Rarity + Empty
             if (SelectedDifficulty == Difficulty.Easy || SelectedDifficulty == Difficulty.Hard)

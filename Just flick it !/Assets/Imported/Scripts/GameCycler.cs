@@ -156,8 +156,7 @@ public class GameCycler : MonoBehaviour
     public void GoToMenu()
     {
         GameBoard.enabled = false;
-        GameBoard.enabled = false;
-
+        GameUI.enabled = false;
 
         MenuBoard.enabled = true;
 
@@ -178,7 +177,7 @@ public class GameCycler : MonoBehaviour
 
     public void Update()
     {
-        if (GameUI.enabled)
+        if (!GameUI.enabled)
         {
             if (GameBoard.RegisteredGame!=transferedgame)
             {

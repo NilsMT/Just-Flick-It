@@ -2,10 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using UnityEngine;
-using UnityEngine.UIElements;
-using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class AnswerHandler : MonoBehaviour
 {
@@ -332,7 +329,7 @@ public class AnswerHandler : MonoBehaviour
         //Priority
         foreach (int i in orderList)
         {
-            if (i == 1-1)
+            if (i == 1 - 1)
             {
                 SolveLine(answer);
             }

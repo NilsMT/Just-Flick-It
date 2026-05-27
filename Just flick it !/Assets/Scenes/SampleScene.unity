@@ -7357,7 +7357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SeType: 2
   SeDiff: 0
-  matrixinput: ',,,;,,,;,,,;,,,;,,,'
+  matrixinput: E0,E0,E0,E0;E0,E0,E0,E0;E0,E0,E0,E0;E0,E0,E0,E0;E0,E0,E1,
   customsettings: 0
   inputid: ABCD
   inputseed: 1
